@@ -1,0 +1,13 @@
+{
+  "name": "grida",
+  "version": "0.0.1",
+  "description": "Grida cli",
+  "main": "index.js",
+  "repository": "https://github.com/gridaco/cli.git",
+  "author": "Grida.co",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  }
+}
