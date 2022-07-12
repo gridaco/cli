@@ -1,4 +1,13 @@
-# grida
+# grida cli
+
+Installation
+
+```sh
+npx install grida
+# or for existing projects.. (node)
+yarn add grida --dev
+yarn add @grida/client # optional (recommended)
+```
 
 ## Commands
 
@@ -23,6 +32,7 @@ $ grida run
 $ grida run <widget> # or grida preview <widget>
 $ grida . # open current directoy in Grida
 $ grida publish # publish grida package
+$ grida checkout <existing-branch> # design branch
 $ grida format
 $ grida test
 $ grida migrate

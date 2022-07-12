@@ -9,5 +9,8 @@
   "private": false,
   "publishConfig": {
     "access": "public"
+  },
+  "bin": {
+    "grida": "bin/index.js"
   }
 }
