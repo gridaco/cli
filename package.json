@@ -1,13 +1,13 @@
 {
-  "name": "grida",
+  "name": "@grida/cli",
   "version": "0.0.1",
-  "description": "Grida cli",
-  "main": "index.js",
+  "description": "Grida cli monorepo (not published on npm)",
   "repository": "https://github.com/gridaco/cli.git",
   "author": "Grida.co",
   "license": "MIT",
-  "private": false,
-  "publishConfig": {
-    "access": "public"
-  }
+  "private": true,
+  "workspaces": [
+    "cli",
+    "packages/*"
+  ]
 }
