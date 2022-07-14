@@ -1,0 +1,8 @@
+{
+  "name": "@grida-cli/project-root",
+  "version": "0.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "pkg-dir": "^6.0.1"
+  }
+}

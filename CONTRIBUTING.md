@@ -1,5 +1,15 @@
 # Contributing & Architecture documents
 
+## Setup
+
+```sh
+git clone https://github.com/gridaco/cli --recurse-submodules
+cd cli
+yarn
+cd cli
+# ...
+```
+
 ## Meta files design
 
 Options

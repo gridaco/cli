@@ -15,10 +15,17 @@
     "grida": "bin/index.js"
   },
   "dependencies": {
-    "@grida-cli/init": "*",
     "@grida-cli/for-nextjs": "*",
     "@grida-cli/for-reactjs": "*",
+    "@grida-cli/init": "*",
     "@grida-cli/upgrade": "*",
-    "@grida-cli/user-profiles": "*"
+    "@grida-cli/user-profiles": "*",
+    "commander": "^9.3.0",
+    "glob": "^8.0.3",
+    "make-dir": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.2.0",
+    "pkg": "^5.8.0"
   }
 }
