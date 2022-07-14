@@ -7,3 +7,32 @@ This document describes the Grida CLI commands, arguments, and options.
 ```sh
 npx install grida
 ```
+
+## Commands
+
+### `version` (`-v`)
+
+The `version` command outputs information about your current grida version, platform, and engine channels.
+
+#### Examples
+
+**Output version information**
+
+```sh
+$ grida version
+
+# result
+grida               : 2022
+@grida/client       : 2022
+Current platform    : macos
+Design SDK          :
+Studio              : remote (2022)
+```
+
+### `init`
+
+Bootstraps a fresh Grida project within the current directory.
+
+#### Arguments
+
+#### Examples
