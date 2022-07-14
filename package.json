@@ -8,6 +8,7 @@
   "private": true,
   "workspaces": [
     "cli",
-    "packages/*"
+    "packages/*",
+    "lib/d2c/packages"
   ]
 }

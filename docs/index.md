@@ -36,3 +36,19 @@ Bootstraps a fresh Grida project within the current directory.
 #### Arguments
 
 #### Examples
+
+### `add`
+
+Adds a new package / module / ui to the Grida project.
+
+#### Arguments
+
+- `--name`
+- `--no-save`
+
+#### Examples
+
+```sh
+$ grida add https://figma.com/files/xxxx
+$ grida add https://figma.com/files/xxxx?node-id=xxxx
+```

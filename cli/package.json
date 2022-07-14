@@ -6,11 +6,19 @@
   "repository": "https://github.com/gridaco/cli.git",
   "author": "Grida.co",
   "license": "MIT",
+  "bugs": "https://github.com/gridaco/grida/issues",
   "private": false,
   "publishConfig": {
     "access": "public"
   },
   "bin": {
     "grida": "bin/index.js"
+  },
+  "dependencies": {
+    "@grida-cli/init": "*",
+    "@grida-cli/for-nextjs": "*",
+    "@grida-cli/for-reactjs": "*",
+    "@grida-cli/upgrade": "*",
+    "@grida-cli/user-profiles": "*"
   }
 }

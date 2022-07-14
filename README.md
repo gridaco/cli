@@ -19,6 +19,10 @@ $ grida config
 $ grida ui pull
 $ grida ui push
 $ grida ui eject
+$ grida ui generate
+$ grida ui diff
+$ grida projects:list
+$ grida open
 $ grida eject
 $ grida add # add new package
 $ grida remove <package-name> # remove package
@@ -26,7 +30,6 @@ $ grida studio
 $ grida docs
 $ grida doctor
 $ grida build
-$ grida generate
 $ grida help
 $ grida run
 $ grida run <widget> # or grida preview <widget>

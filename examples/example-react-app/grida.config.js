@@ -7,6 +7,9 @@ module.exports = {
       personalAccessToken: process.env["FIGMA_PERSONAL_ACCESS_TOKEN"],
     },
   },
+  generator: {
+    provider: "grida-client-gen",
+  },
   plugins: [],
   async rewrites() {
     return [
