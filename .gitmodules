@@ -1,3 +1,15 @@
 [submodule "lib/d2c"]
 	path = lib/d2c
 	url = https://github.com/gridaco/designto-code
+[submodule "lib/design-sdk"]
+	path = lib/design-sdk
+	url = https://github.com/gridaco/design-sdk
+[submodule "lib/reflect-core"]
+	path = lib/reflect-core
+	url = https://github.com/reflect-ui/reflect-core-ts
+[submodule "lib/coli"]
+	path = lib/coli
+	url = https://github.com/gridaco/coli
+[submodule "lib/reflect-detection"]
+	path = lib/reflect-detection
+	url = https://github.com/reflect-ui/reflect-ui-detection
