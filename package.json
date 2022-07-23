@@ -9,11 +9,14 @@
   "workspaces": [
     "cli",
     "packages/*",
-    "lib/d2c/packages"
+    "lib/d2c/packages/*",
+    "lib/reflect-core/packages/*",
+    "lib/design-sdk/*",
+    "lib/coli/packages/*",
+    "lib/reflect-detection"
   ],
   "devDependencies": {
     "ts-node": "10.7.0",
-    "typescript": "4.6.4",
-    "@types/node": "^18.0.4"
+    "typescript": "4.6.4"
   }
 }

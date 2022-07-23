@@ -1,4 +1,3 @@
-import fs from "fs";
 import { packageDirectory } from "pkg-dir";
 
 async function resolveGridaProjectRoot(): Promise<

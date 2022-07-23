@@ -14,18 +14,24 @@
   "bin": {
     "grida": "bin/index.js"
   },
+  "scripts": {
+    "dev": "bun run index.ts"
+  },
   "dependencies": {
     "@grida-cli/for-nextjs": "*",
     "@grida-cli/for-reactjs": "*",
     "@grida-cli/init": "*",
     "@grida-cli/upgrade": "*",
     "@grida-cli/user-profiles": "*",
-    "commander": "^9.3.0",
+    "arg": "^5.0.2",
     "glob": "^8.0.3",
-    "make-dir": "^3.1.0"
+    "global-dirs": "^3.0.0",
+    "make-dir": "^3.1.0",
+    "strip-indent": "^4.0.0"
   },
   "devDependencies": {
     "@types/glob": "^7.2.0",
+    "@types/node": "^18.0.6",
     "pkg": "^5.8.0"
   }
 }
