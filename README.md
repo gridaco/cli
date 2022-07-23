@@ -40,6 +40,7 @@ $ grida format
 $ grida test
 $ grida migrate
 $ grida gen-l10n
+$ grida remote add
 ```
 
 <!-- create markdown table -->
