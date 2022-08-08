@@ -2,20 +2,31 @@
   "name": "grida",
   "version": "0.0.1",
   "description": "Grida cli",
-  "main": "index.js",
-  "repository": "https://github.com/gridaco/cli.git",
   "author": "Grida.co",
+  "preferGlobal": true,
   "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gridaco/cli.git",
+    "directory": "cli"
+  },
   "bugs": "https://github.com/gridaco/grida/issues",
   "private": false,
   "publishConfig": {
     "access": "public"
   },
-  "bin": {
-    "grida": "bin/index.js"
-  },
   "scripts": {
-    "dev": "bun run index.ts"
+    "dev": "ts-node ./src/bin.ts"
+  },
+  "bin": {
+    "grida": "./dist/bin.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">= 14"
   },
   "dependencies": {
     "@grida-cli/for-nextjs": "*",
@@ -30,6 +41,7 @@
     "strip-indent": "^4.0.0"
   },
   "devDependencies": {
+    "@swc/core": "^1.2.218",
     "@types/glob": "^7.2.0",
     "@types/node": "^18.0.6",
     "pkg": "^5.8.0"

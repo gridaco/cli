@@ -1,0 +1,22 @@
+{
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "packages": [
+    "packages/*",
+    "lib/d2c/packages/*",
+    "lib/reflect-core/packages/*",
+    "lib/design-sdk/*",
+    "lib/coli/packages/*",
+    "lib/reflect-detection"
+  ],
+  "command": {
+    "publish": {
+      "npmClient": "npm",
+      "allowBranch": [
+        "main"
+      ],
+      "registry": "https://registry.npmjs.org/"
+    }
+  },
+  "version": "independent"
+}

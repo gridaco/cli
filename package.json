@@ -6,8 +6,11 @@
   "author": "Grida.co",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev"
+  },
   "workspaces": [
-    "cli",
     "packages/*",
     "lib/d2c/packages/*",
     "lib/reflect-core/packages/*",
@@ -17,6 +20,10 @@
   ],
   "devDependencies": {
     "ts-node": "10.7.0",
+    "turbo": "^1.3.4",
     "typescript": "4.6.4"
+  },
+  "dependencies": {
+    "lerna": "^5.2.0"
   }
 }
