@@ -1,4 +1,4 @@
-# grida cli
+# grida cli - This repository is archived temporarily. Visit [gridaco/code/cli](https://github.com/gridaco/code/tree/main/cli)
 
 Installation
 
